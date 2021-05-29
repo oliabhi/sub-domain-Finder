@@ -6,9 +6,9 @@ No of threads can be monitored using Htop.
 HTOP installation ( #CENTOS ) : 
 
 
-# yum install epel-release   [CentOS 8]
+--- yum install epel-release   [CentOS 8]
 
-# yum install htop
+--- yum install htop
 
 
 
