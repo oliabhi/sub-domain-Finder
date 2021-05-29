@@ -9,19 +9,6 @@ No of threads can be monitored using Htop utility.
 
 --- yum install htop
 
-
-
-
-
+#Script working : 
 --- Taking user inputs for Domain name (e.g abc.com) , list (e.g sublist.txt) , noOfthreads (e.g 50 *depends on your cpu build. Advice to keep the number low)
-
-#!/bin/bash
-domain=$1
-list=$2
-noOfThreads=$3
-
-while read sub;
-do echo "$sub.$domain";
-done < $list  | xargs -P$noOfThreads -I X bash -c "if host X &> /dev/null;then echo X;fi"
-
 
