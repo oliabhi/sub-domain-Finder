@@ -13,6 +13,8 @@ HTOP installation ( #CENTOS ) :
 
 
 #!/bin/bash
+
+# taking user inputs for Domain name (e.g abc.com) , list (e.g sublist.txt) , noOfthreads (e.g 50 *depends on your cpu build. Advice to keep the number low)
 domain=$1
 list=$2
 noOfThreads=$3
