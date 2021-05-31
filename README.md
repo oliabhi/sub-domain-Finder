@@ -12,3 +12,4 @@ No of threads can be monitored using Htop utility.
 #Script working : 
 --- Taking user inputs for Domain name (e.g abc.com) , list (e.g sublist.txt) , noOfthreads (e.g 50 *depends on your cpu build. Advice to keep the number low)
 
+---storing the output in a file created after process ends (file name - domain enter.txt)
