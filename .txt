@@ -1,0 +1,2 @@
+jsonmock.hackerrank.com is an alias for haproxy.hackerrank.com.
+haproxy.hackerrank.com has address 54.173.121.130
